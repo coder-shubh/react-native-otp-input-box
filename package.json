@@ -1,0 +1,48 @@
+{
+  "name": "react-native-otp-input-box",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "babel-plugin",
+    "coder-shubh",
+    "otp",
+    "otp input",
+    "pin input",
+    "react-native otp",
+    "react-native otp input",
+    "react-native pin input",
+    "react native typescript",
+    "react native otp verification",
+    "otp box",
+    "mobile otp input",
+    "react-native component",
+    "authentication",
+    "two factor auth"
+  ],
+  "author": "coder-shubh",
+  "license": "ISC",
+  "description": "A customizable, lightweight, and easy-to-use OTP input component for React Native with auto focus and digit navigation.",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-native": "^0.80.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coder-shubh/react-native-otp-input-box.git"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.8",
+    "@types/react-native": "^0.72.8",
+    "typescript": "^5.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/coder-shubh/react-native-otp-input-box.git/issues"
+  },
+  "homepage": "https://github.com/coder-shubh/react-native-otp-input-box.git#readme"
+}
