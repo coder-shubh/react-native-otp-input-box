@@ -32,7 +32,7 @@ const OtpInput = ({ length = 6, onOtpChange }) => {
         setFocusedIndex(index);
     };
     return (<View style={styles.container}>
-      {otp.map((digit, index) => (<TextInput key={index} ref={(ref) => (inputs.current[index] = ref)} value={digit} keyboardType="number-pad" maxLength={1} onChangeText={(text) => handleChange(text, index)} onKeyPress={(e) => handleKeyPress(e, index)} onFocus={() => handleFocus(index)} style={[
+      {otp.map((digit, index) => (<TextInput key={index} ref={ref => { inputs.current[index] = ref; }} value={digit} keyboardType="number-pad" maxLength={1} onChangeText={(text) => handleChange(text, index)} onKeyPress={(e) => handleKeyPress(e, index)} onFocus={() => handleFocus(index)} style={[
                 styles.input,
                 focusedIndex === index && styles.inputFocused,
             ]} autoFocus={index === 0}/>))}
