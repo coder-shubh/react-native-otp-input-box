@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/npm/v/react-native-otp-input-box" alt="npm version">
   <img src="https://img.shields.io/npm/dm/react-native-otp-input-box" alt="downloads">
-  <img src="https://img.shields.io/github/license/yourusername/react-native-otp-input-box" alt="license">
+  <img src="https://img.shields.io/github/license/coder-shubh/react-native-otp-input-box" alt="license">
 </p>
 
 <!-- Description -->
@@ -41,13 +41,12 @@ npm install react-native-otp-input-box
 
 # with yarn
 yarn add react-native-otp-input-box
+````
 
+## Usage
 
-<!-- Usage -->
-<h2>Usage</h2>
-<p align="center">
   A simple, customizable OTP input component for React Native with auto-focus and smooth digit navigation.
-</p>
+
 ```js
 import React from 'react';
 import { View } from 'react-native';
@@ -68,10 +67,10 @@ const App = () => {
 export default App;
 ````
 
-```bash
-<!--🎨 Styling-->
-<h2>🎨 Styling</h2>
+
+### 🎨 Styling
 <p align="center">
+```bash
   Basic styling is applied by default. For customization, feel free to fork or modify the styles directly in the component file.
 Future versions may support style props.
 ```
@@ -98,12 +97,24 @@ In this table:
 
 <!-- License -->
 <h2>License</h2>
-MIT © coder-shubh
----
+    MIT License
 
-### 🔧 Notes
+    Copyright (c) 2025 coder-shubh
 
-- Replace `"yourusername"` in GitHub URLs with your GitHub username.
-- If you want to include a demo GIF/image, upload it to your repo (e.g., in `assets/`) and uncomment the `<img>` block.
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-Let me know if you’d like this bundled as a downloadable `.md` or `.docx` file.
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
