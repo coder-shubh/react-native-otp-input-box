@@ -5,9 +5,8 @@
 <p align="center">
   <img src="https://img.shields.io/npm/v/react-native-otp-input-box" alt="npm version">
   <img src="https://img.shields.io/npm/dm/react-native-otp-input-box" alt="downloads">
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/coder-shubh/react-native-otp-input-box" alt="license">
-  </a></p>
+  <img src="https://img.shields.io/github/license/coder-shubh/react-native-otp-input-box" alt="license">
+</p>
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
   <!-- First GIF -->
   <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/assets/vid.gif" alt="Demo 1" width="45%">
