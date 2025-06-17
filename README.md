@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/npm/v/react-native-otp-input-box" alt="npm version">
   <img src="https://img.shields.io/npm/dm/react-native-otp-input-box" alt="downloads">
-  <img src="https://github.com/coder-shubh/react-native-otp-input-box/blob/b8c112dba21f6581fc3070aa72168e81ca6b13d7/LICENSE" alt="license">
+  <img src="https://img.shields.io/github/license/coder-shubh/react-native-otp-input-box" alt="license">
 </p>
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
   <!-- First GIF -->
