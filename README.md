@@ -9,8 +9,8 @@
 </p>
 <div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
   <!-- First GIF -->
-  <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/vid.gif" alt="Demo 1" width="45%">
-    <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/vido.gif" alt="Demo 1" width="45%">
+  <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/assets/vid.gif" alt="Demo 1" width="45%">
+    <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/assets/vido.gif" alt="Demo 1" width="45%">
 </div>
 <!-- Description -->
 <p align="center">
