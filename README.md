@@ -35,46 +35,70 @@
 
 You can install the package using `npm` or `yarn`:
 
-````bash
+```bash
 # with npm
 npm install react-native-otp-input-box
 
 # with yarn
 yarn add react-native-otp-input-box
-````
+```
 
 ## Usage
 
-  A simple, customizable OTP input component for React Native with auto-focus and smooth digit navigation.
+A simple, customizable OTP input component for React Native with auto-focus and smooth digit navigation.
 
 ```js
-import React from 'react';
-import { View } from 'react-native';
-import { OtpInput } from 'react-native-otp-input-box';
+import React from "react";
+import { View, StyleSheet } from "react-native";
+import { OtpInput } from "react-native-otp-input-box";
 
 const App = () => {
   const handleOtpChange = (otp: string) => {
-    console.log('Entered OTP:', otp);
+    console.log("Entered OTP:", otp);
   };
 
   return (
-    <View>
-      <OtpInput length={6} onOtpChange={handleOtpChange} />
+    <View style={styles.screen}>
+      <OtpInput
+        length={6}
+        onOtpChange={handleOtpChange}
+        keyboardType="numeric"
+        autoFocus={true}
+        inputStyle={styles.inputStyle}
+        containerStyle={styles.containerStyle}
+      />
     </View>
   );
 };
 
+const styles = StyleSheet.create({
+  screen: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#f5f5f5",
+  },
+  inputStyle: {
+    borderColor: "#4CAF50",
+    borderWidth: 1.5,
+    backgroundColor: "#fff",
+    fontSize: 20,
+    color: "#333",
+  },
+  containerStyle: {
+    justifyContent: "space-between",
+    paddingHorizontal: 20,
+  },
+});
+
 export default App;
-````
-
-
-### 🎨 Styling
-<p align="center">
-```bash
-  Basic styling is applied by default. For customization, feel free to fork or modify the styles directly in the component file.
-Future versions may support style props.
 ```
 
+### 🎨 Styling
+
+<p align="center">
+    Basic styling is applied by default. For customization, feel free to fork or modify the styles directly in the component file.
+    Future versions may support style props.
 </p>
 <!-- Props -->
 <h2>Props</h2>
