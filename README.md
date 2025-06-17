@@ -7,7 +7,11 @@
   <img src="https://img.shields.io/npm/dm/react-native-otp-input-box" alt="downloads">
   <img src="https://img.shields.io/github/license/coder-shubh/react-native-otp-input-box" alt="license">
 </p>
-
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: center;">
+  <!-- First GIF -->
+  <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/vid.gif" alt="Demo 1" width="45%">
+    <img src="https://raw.githubusercontent.com/coder-shubh/react-native-otp-input-box/main/src/vido.gif" alt="Demo 1" width="45%">
+</div>
 <!-- Description -->
 <p align="center">
   A simple, customizable OTP input component for React Native with auto-focus and smooth digit navigation.
