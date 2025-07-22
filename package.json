@@ -26,7 +26,7 @@
     "two factor auth"
   ],
   "author": "coder-shubh",
-  "license": "ISC",
+  "license": "MIT",
   "description": "A customizable, lightweight, and easy-to-use OTP input component for React Native with auto focus and digit navigation.",
   "dependencies": {
     "react": "^19.1.0",
